@@ -1,0 +1,39 @@
+{
+  "name": "adam.me",
+  "version": "0.1.0",
+  "private": true,
+  "description": "my personal website",
+  "author": "adam",
+  "license": "MIT",
+  "keywords": [
+    "adam",
+    "me",
+    "personal",
+    "website"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack -p 8060",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix"
+  },
+  "dependencies": {
+    "next": "15.4.6",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^5.2.0",
+    "@eslint-react/eslint-plugin": "^1.52.3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9.32.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
