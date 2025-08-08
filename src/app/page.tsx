@@ -1,7 +1,6 @@
-export default function Home() {
-  return (
-    <div className="font-sans min-h-screen">
-      hello world
-    </div>
-  )
+import { redirect } from 'next/navigation'
+import { defaultLocale } from '@/i18n/routing'
+
+export default function RootPage() {
+  redirect(`/${defaultLocale}`)
 }
